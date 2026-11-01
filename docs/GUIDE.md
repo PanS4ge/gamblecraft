@@ -12,6 +12,12 @@ to a client that has not accepted it.
 - **Card games:** blackjack, oczko, Texas Hold'em (players against each other, or heads-up against the dealer), five
   card draw, three card poker, baccarat, war, higher/lower. Playing cards and the card deck (a pouch for up to 52
   cards) drop and trade.
+- **Texas Hold'em with friends:** one player opens a Hold'em table (a village dealer, or a casino card table); the
+  others click the table to sit down (up to three at a village table, five in the casino) and buy in. Two cards each,
+  then the flop, the turn and the river, with fold, check, call, raise and all-in between. Each player's cards go to
+  that player only: the server never sends anyone else's hole cards, so not even a modified client can peek. They are
+  shown at the showdown, except folded hands, which stay hidden for good. Someone sitting alone plays heads-up
+  against the dealer.
 - **Scratch cards:** bought from many villager professions or lifted from pockets (sneak-use a villager from behind).
   Lay one on a block and scratch it with your own hand. Winnings are paid only by the lottery clerk in the exchange
   centre of the village that issued the card.

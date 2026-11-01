@@ -42,12 +42,13 @@ public final class TableHand {
 	}
 
 	HandView view(int viewerSeat, boolean showdown) {
+		// a folded hand is never shown, not even at the showdown
+		boolean open = !privateToOwner || owner == viewerSeat || (showdown && !"fold".equals(result));
 		List<Integer> ids = new ArrayList<>(cards.size());
 		for (PlacedCard placed : cards) {
-			boolean visible = placed.faceUp() && (!privateToOwner || owner == viewerSeat || showdown);
-			ids.add(visible ? placed.card().id() : -1);
+			ids.add(placed.faceUp() && open ? placed.card().id() : -1);
 		}
-		boolean showValue = !privateToOwner || owner == viewerSeat || showdown;
+		boolean showValue = open;
 		return new HandView(id, owner, label, ids, showValue ? value : null, result, active, marks);
 	}
 }

@@ -16,7 +16,8 @@
 			"pl.pansage.gamblecraft.test.client.CasinoClientTest",
 			"pl.pansage.gamblecraft.test.client.GamesClientTest",
 			"pl.pansage.gamblecraft.test.client.ArcadeClientTest",
-			"pl.pansage.gamblecraft.test.client.SecurityClientTest"
+			"pl.pansage.gamblecraft.test.client.SecurityClientTest",
+			"pl.pansage.gamblecraft.test.client.HoldemTableClientTest"
 		],
 		"fabric-gametest": [
 			"pl.pansage.gamblecraft.test.VillageGameTests",

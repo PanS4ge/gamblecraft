@@ -63,6 +63,48 @@ class HoldemGameTest {
 		assertEquals(null, theirs.value());
 	}
 
+	/** Three at the table, one folds: nobody ever sees the folded cards, a spectator sees no hole cards before the showdown. */
+	@Test
+	void foldedCardsStayHiddenAtShowdown() {
+		HoldemGame game = new HoldemGame(5, 1, 2, rng(15));
+		int a = game.sit(P1, "a");
+		int b = game.sit(P2, "b");
+		int c = game.sit(P3, "c");
+		for (int seat : new int[] {a, b, c}) {
+			game.buyIn(seat, 100);
+		}
+		game.startRound();
+		game.runToInput();
+		TableSnapshot spectator = game.snapshot(java.util.UUID.randomUUID());
+		assertTrue(spectator.hands().stream().filter(h -> h.owner() >= 0).allMatch(h -> h.cards().stream().allMatch(id -> id == -1)));
+		assertTrue(spectator.actions().isEmpty());
+		int folder = game.activeSeat();
+		game.act(folder, Act.FOLD, 0);
+		game.runToInput();
+		while (game.awaitingInput()) {
+			int seat = game.activeSeat();
+			Act act = game.options(seat).stream().anyMatch(o -> o.act() == Act.CHECK) ? Act.CHECK : Act.CALL;
+			game.act(seat, act, 0);
+			game.runToInput();
+		}
+		assertEquals(Phase.SETTLED, game.phase());
+		for (java.util.UUID viewer : List.of(P1, P2, P3)) {
+			TableSnapshot view = game.snapshot(viewer);
+			int viewerSeat = game.seatOf(viewer);
+			HandView folded = view.hands().stream().filter(h -> h.owner() == folder).findFirst().orElseThrow();
+			if (viewerSeat != folder) {
+				assertTrue(folded.cards().stream().allMatch(id -> id == -1), "folded cards shown to " + viewerSeat);
+			}
+			for (HandView hand : view.hands()) {
+				if (hand.owner() >= 0 && hand.owner() != folder) {
+					assertTrue(hand.cards().stream().allMatch(id -> id >= 0), "showdown hand " + hand.owner() + " hidden from " + viewerSeat);
+				}
+			}
+		}
+		HandView board = game.snapshot(P1).hands().stream().filter(h -> h.id().equals("board")).findFirst().orElseThrow();
+		assertEquals(5, board.cards().size());
+	}
+
 	@Test
 	void chipsAreConservedInRandomMultiwayPlay() {
 		RandomGenerator rng = rng(12);

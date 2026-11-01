@@ -38,7 +38,7 @@ public abstract class CardGame {
 	private final List<Settlement> settlements = new ArrayList<>();
 	protected Phase phase = Phase.BETTING;
 	protected int activeSeat = -1;
-	/** When true every private card is shown to everybody. */
+	/** When true the private cards of every hand still in play are shown to everybody (folded ones stay hidden). */
 	protected boolean showdown;
 	private int round;
 
