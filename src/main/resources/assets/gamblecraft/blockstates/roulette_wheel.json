@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "assembled=false,facing=north": {
+      "model": "gamblecraft:block/roulette_wheel"
+    },
+    "assembled=true,facing=north": {
+      "model": "gamblecraft:block/roulette_wheel"
+    },
+    "assembled=false,facing=east": {
+      "model": "gamblecraft:block/roulette_wheel",
+      "y": 90
+    },
+    "assembled=true,facing=east": {
+      "model": "gamblecraft:block/roulette_wheel",
+      "y": 90
+    },
+    "assembled=false,facing=south": {
+      "model": "gamblecraft:block/roulette_wheel",
+      "y": 180
+    },
+    "assembled=true,facing=south": {
+      "model": "gamblecraft:block/roulette_wheel",
+      "y": 180
+    },
+    "assembled=false,facing=west": {
+      "model": "gamblecraft:block/roulette_wheel",
+      "y": 270
+    },
+    "assembled=true,facing=west": {
+      "model": "gamblecraft:block/roulette_wheel",
+      "y": 270
+    }
+  }
+}

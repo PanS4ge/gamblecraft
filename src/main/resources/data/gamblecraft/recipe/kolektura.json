@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PEP",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "P": "minecraft:paper",
+    "E": "minecraft:emerald",
+    "W": "minecraft:dark_oak_planks"
+  },
+  "result": {
+    "id": "gamblecraft:kolektura",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 48
+  },
+  "gives": {
+    "id": "gamblecraft:suit_jacket",
+    "count": 1
+  },
+  "max_uses": 3,
+  "reputation_discount": 0.05,
+  "xp": 20
+}

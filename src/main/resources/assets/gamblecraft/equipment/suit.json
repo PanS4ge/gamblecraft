@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "gamblecraft:suit"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "gamblecraft:suit"
+      }
+    ]
+  }
+}

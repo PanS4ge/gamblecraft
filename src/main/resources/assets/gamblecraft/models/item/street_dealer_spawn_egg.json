@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gamblecraft:item/street_dealer_spawn_egg"
+  }
+}

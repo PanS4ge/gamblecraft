@@ -1,0 +1,34 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 0.01,
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card_deck_low"
+        }
+      },
+      {
+        "threshold": 0.34,
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card_deck_half"
+        }
+      },
+      {
+        "threshold": 0.67,
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card_deck_full"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "gamblecraft:item/card_deck_empty"
+    }
+  }
+}

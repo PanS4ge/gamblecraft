@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gamblecraft:item/lottery_clerk_spawn_egg"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GIG",
+    "PCP",
+    "PPP"
+  ],
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "I": "minecraft:iron_ingot",
+    "C": "minecraft:compass",
+    "P": "#minecraft:planks"
+  },
+  "result": {
+    "id": "gamblecraft:roulette_wheel",
+    "count": 1
+  }
+}

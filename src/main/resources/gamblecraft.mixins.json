@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "pl.pansage.gamblecraft.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"StructureTemplatePoolAccessor",
+		"BlockItemMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

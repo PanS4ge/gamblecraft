@@ -1,0 +1,7 @@
+{
+  "parent": "gamblecraft:item/chip_3d",
+  "textures": {
+    "face": "gamblecraft:item/chip_25",
+    "edge": "gamblecraft:item/chip_25_edge"
+  }
+}

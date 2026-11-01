@@ -1,0 +1,77 @@
+plugins {
+	id 'net.fabricmc.fabric-loom'
+}
+
+base {
+	archivesName = 'gamblecraft-sportsbook'
+}
+
+loom {
+	splitEnvironmentSourceSets()
+
+	mods {
+		"gamblecraft" {
+			sourceSet("main", ":")
+			sourceSet("client", ":")
+		}
+		"gamblecraft_sportsbook" {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+	}
+
+	// game tests bring their own fixtures; the client test switches the real feeds back on for its screenshots
+	runs.configureEach {
+		if (name.toLowerCase().contains("gametest")) {
+			vmArg "-Dgamblecraft.sportsbook.offline=true"
+		}
+	}
+}
+
+fabricApi {
+	configureTests {
+		createSourceSet = true
+		modId = "gamblecraft-sportsbook-test"
+		enableGameTests = true
+		enableClientGameTests = true
+		eula = true
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+	// the add-on sits on top of GambleCraft: chips, the cashier's rates, the WIN overlay
+	implementation rootProject.sourceSets.main.output
+	clientImplementation rootProject.sourceSets.client.output
+
+	testImplementation "org.junit.jupiter:junit-jupiter:${project.junit_version}"
+	testRuntimeOnly "org.junit.platform:junit-platform-launcher"
+}
+
+test {
+	useJUnitPlatform()
+}
+
+processResources {
+	def version = project.version
+	inputs.property "version", version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 25
+	it.options.encoding = 'UTF-8'
+}
+
+java {
+	withSourcesJar()
+
+	sourceCompatibility = JavaVersion.VERSION_25
+	targetCompatibility = JavaVersion.VERSION_25
+}

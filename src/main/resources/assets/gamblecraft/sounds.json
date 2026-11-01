@@ -1,0 +1,66 @@
+{
+  "chip_clink": {
+    "sounds": [
+      "gamblecraft:chip_clink_0",
+      "gamblecraft:chip_clink_1",
+      "gamblecraft:chip_clink_2"
+    ],
+    "subtitle": "subtitles.gamblecraft.chip_clink"
+  },
+  "reel_stop": {
+    "sounds": [
+      "gamblecraft:reel_stop_0",
+      "gamblecraft:reel_stop_1"
+    ],
+    "subtitle": "subtitles.gamblecraft.reel_stop"
+  },
+  "wheel_click": {
+    "sounds": [
+      "gamblecraft:wheel_click"
+    ],
+    "subtitle": "subtitles.gamblecraft.wheel_click"
+  },
+  "dice": {
+    "sounds": [
+      "gamblecraft:dice_0",
+      "gamblecraft:dice_1"
+    ],
+    "subtitle": "subtitles.gamblecraft.dice"
+  },
+  "plinko_peg": {
+    "sounds": [
+      "gamblecraft:plinko_peg"
+    ],
+    "subtitle": "subtitles.gamblecraft.plinko_peg"
+  },
+  "win": {
+    "sounds": [
+      "gamblecraft:win"
+    ],
+    "subtitle": "subtitles.gamblecraft.win"
+  },
+  "big_win": {
+    "sounds": [
+      "gamblecraft:big_win"
+    ],
+    "subtitle": "subtitles.gamblecraft.big_win"
+  },
+  "jackpot": {
+    "sounds": [
+      "gamblecraft:jackpot"
+    ],
+    "subtitle": "subtitles.gamblecraft.jackpot"
+  },
+  "coins": {
+    "sounds": [
+      "gamblecraft:coins"
+    ],
+    "subtitle": "subtitles.gamblecraft.coins"
+  },
+  "alarm": {
+    "sounds": [
+      "gamblecraft:alarm"
+    ],
+    "subtitle": "subtitles.gamblecraft.alarm"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RFR",
+    "III"
+  ],
+  "key": {
+    "R": "minecraft:redstone",
+    "F": "minecraft:firework_rocket",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "gamblecraft:crash_pad",
+    "count": 1
+  }
+}

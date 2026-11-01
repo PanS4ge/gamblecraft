@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "PBP",
+    "P P"
+  ],
+  "key": {
+    "W": "minecraft:green_wool",
+    "P": "#minecraft:planks",
+    "B": "minecraft:bone"
+  },
+  "result": {
+    "id": "gamblecraft:dice_table",
+    "count": 1
+  }
+}

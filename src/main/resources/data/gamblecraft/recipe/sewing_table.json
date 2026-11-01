@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SIS",
+    "PPP",
+    "P P"
+  ],
+  "key": {
+    "S": "minecraft:string",
+    "I": "minecraft:iron_ingot",
+    "P": "#minecraft:planks"
+  },
+  "result": {
+    "id": "gamblecraft:sewing_table",
+    "count": 1
+  }
+}

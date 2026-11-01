@@ -1,0 +1,377 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "hearts_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/hearts_2"
+        }
+      },
+      {
+        "when": "hearts_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/hearts_3"
+        }
+      },
+      {
+        "when": "hearts_4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/hearts_4"
+        }
+      },
+      {
+        "when": "hearts_5",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/hearts_5"
+        }
+      },
+      {
+        "when": "hearts_6",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/hearts_6"
+        }
+      },
+      {
+        "when": "hearts_7",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/hearts_7"
+        }
+      },
+      {
+        "when": "hearts_8",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/hearts_8"
+        }
+      },
+      {
+        "when": "hearts_9",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/hearts_9"
+        }
+      },
+      {
+        "when": "hearts_10",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/hearts_10"
+        }
+      },
+      {
+        "when": "hearts_jack",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/hearts_jack"
+        }
+      },
+      {
+        "when": "hearts_queen",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/hearts_queen"
+        }
+      },
+      {
+        "when": "hearts_king",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/hearts_king"
+        }
+      },
+      {
+        "when": "hearts_ace",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/hearts_ace"
+        }
+      },
+      {
+        "when": "diamonds_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/diamonds_2"
+        }
+      },
+      {
+        "when": "diamonds_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/diamonds_3"
+        }
+      },
+      {
+        "when": "diamonds_4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/diamonds_4"
+        }
+      },
+      {
+        "when": "diamonds_5",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/diamonds_5"
+        }
+      },
+      {
+        "when": "diamonds_6",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/diamonds_6"
+        }
+      },
+      {
+        "when": "diamonds_7",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/diamonds_7"
+        }
+      },
+      {
+        "when": "diamonds_8",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/diamonds_8"
+        }
+      },
+      {
+        "when": "diamonds_9",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/diamonds_9"
+        }
+      },
+      {
+        "when": "diamonds_10",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/diamonds_10"
+        }
+      },
+      {
+        "when": "diamonds_jack",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/diamonds_jack"
+        }
+      },
+      {
+        "when": "diamonds_queen",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/diamonds_queen"
+        }
+      },
+      {
+        "when": "diamonds_king",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/diamonds_king"
+        }
+      },
+      {
+        "when": "diamonds_ace",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/diamonds_ace"
+        }
+      },
+      {
+        "when": "clubs_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/clubs_2"
+        }
+      },
+      {
+        "when": "clubs_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/clubs_3"
+        }
+      },
+      {
+        "when": "clubs_4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/clubs_4"
+        }
+      },
+      {
+        "when": "clubs_5",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/clubs_5"
+        }
+      },
+      {
+        "when": "clubs_6",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/clubs_6"
+        }
+      },
+      {
+        "when": "clubs_7",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/clubs_7"
+        }
+      },
+      {
+        "when": "clubs_8",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/clubs_8"
+        }
+      },
+      {
+        "when": "clubs_9",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/clubs_9"
+        }
+      },
+      {
+        "when": "clubs_10",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/clubs_10"
+        }
+      },
+      {
+        "when": "clubs_jack",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/clubs_jack"
+        }
+      },
+      {
+        "when": "clubs_queen",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/clubs_queen"
+        }
+      },
+      {
+        "when": "clubs_king",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/clubs_king"
+        }
+      },
+      {
+        "when": "clubs_ace",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/clubs_ace"
+        }
+      },
+      {
+        "when": "spades_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/spades_2"
+        }
+      },
+      {
+        "when": "spades_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/spades_3"
+        }
+      },
+      {
+        "when": "spades_4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/spades_4"
+        }
+      },
+      {
+        "when": "spades_5",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/spades_5"
+        }
+      },
+      {
+        "when": "spades_6",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/spades_6"
+        }
+      },
+      {
+        "when": "spades_7",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/spades_7"
+        }
+      },
+      {
+        "when": "spades_8",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/spades_8"
+        }
+      },
+      {
+        "when": "spades_9",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/spades_9"
+        }
+      },
+      {
+        "when": "spades_10",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/spades_10"
+        }
+      },
+      {
+        "when": "spades_jack",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/spades_jack"
+        }
+      },
+      {
+        "when": "spades_queen",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/spades_queen"
+        }
+      },
+      {
+        "when": "spades_king",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/spades_king"
+        }
+      },
+      {
+        "when": "spades_ace",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gamblecraft:item/card/spades_ace"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "gamblecraft:item/card/back"
+    }
+  }
+}

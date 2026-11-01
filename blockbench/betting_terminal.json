@@ -1,0 +1,140 @@
+{
+  "name": "betting_terminal",
+  "textures": {
+    "body": "gamblecraft_sportsbook:block/terminal_body",
+    "front": "gamblecraft_sportsbook:block/terminal_front",
+    "screen": "gamblecraft_sportsbook:block/terminal_screen",
+    "sign": "gamblecraft_sportsbook:block/terminal_sign",
+    "desk": "minecraft:block/dark_oak_planks",
+    "paper": "minecraft:block/white_concrete"
+  },
+  "cubes": [
+    {
+      "name": "plinth",
+      "from": [
+        1,
+        0,
+        2
+      ],
+      "to": [
+        15,
+        1,
+        15
+      ],
+      "tex": "body",
+      "faces": {}
+    },
+    {
+      "name": "cabinet",
+      "from": [
+        2,
+        1,
+        3
+      ],
+      "to": [
+        14,
+        13,
+        14
+      ],
+      "tex": "body",
+      "faces": {
+        "north": "front"
+      }
+    },
+    {
+      "name": "desk",
+      "from": [
+        1,
+        13,
+        0.5
+      ],
+      "to": [
+        15,
+        14,
+        9
+      ],
+      "tex": "desk",
+      "faces": {}
+    },
+    {
+      "name": "coupon",
+      "from": [
+        6,
+        14,
+        1
+      ],
+      "to": [
+        10,
+        14.2,
+        4
+      ],
+      "tex": "paper",
+      "faces": {}
+    },
+    {
+      "name": "neck",
+      "from": [
+        6,
+        14,
+        8
+      ],
+      "to": [
+        10,
+        16,
+        12
+      ],
+      "tex": "body",
+      "faces": {}
+    },
+    {
+      "name": "housing",
+      "from": [
+        1.5,
+        16,
+        2.5
+      ],
+      "to": [
+        14.5,
+        27,
+        9
+      ],
+      "tex": "body",
+      "faces": {
+        "north": "screen"
+      }
+    },
+    {
+      "name": "sign",
+      "from": [
+        1,
+        27,
+        2
+      ],
+      "to": [
+        15,
+        32,
+        9.5
+      ],
+      "tex": "body",
+      "faces": {
+        "north": "sign",
+        "south": "sign"
+      },
+      "uv": {
+        "north": [
+          1,
+          5,
+          15,
+          10
+        ],
+        "south": [
+          1,
+          5,
+          15,
+          10
+        ]
+      }
+    }
+  ],
+  "export": "sportsbook/src/main/resources/assets/gamblecraft_sportsbook/models/block/betting_terminal.json"
+}

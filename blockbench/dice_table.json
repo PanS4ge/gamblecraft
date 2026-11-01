@@ -1,0 +1,177 @@
+{
+  "name": "dice_table",
+  "textures": {
+    "wood": "gamblecraft:block/roulette_wood",
+    "felt": "gamblecraft:block/roulette_felt",
+    "brass": "gamblecraft:block/roulette_brass",
+    "fortune_front": "gamblecraft:block/fortune_front",
+    "crash_side": "gamblecraft:block/crash_side",
+    "crash_top": "gamblecraft:block/crash_top",
+    "crash_target": "gamblecraft:block/crash_target",
+    "iron": "minecraft:block/iron_block",
+    "black": "minecraft:block/black_concrete",
+    "gold": "minecraft:block/gold_block",
+    "plinko_side": "gamblecraft:block/plinko_side",
+    "plinko_tray": "gamblecraft:block/plinko_tray",
+    "plinko_board": "gamblecraft:block/plinko_board",
+    "marquee": "gamblecraft:block/slot_marquee",
+    "kiosk_front": "gamblecraft:block/kiosk_front",
+    "kiosk_side": "gamblecraft:block/kiosk_side",
+    "kiosk_sign": "gamblecraft:block/kiosk_sign"
+  },
+  "cubes": [
+    {
+      "name": "top",
+      "from": [
+        0,
+        12,
+        0
+      ],
+      "to": [
+        16,
+        14,
+        16
+      ],
+      "tex": "wood",
+      "faces": {
+        "up": "felt"
+      }
+    },
+    {
+      "name": "apron",
+      "from": [
+        1,
+        9,
+        1
+      ],
+      "to": [
+        15,
+        12,
+        15
+      ],
+      "tex": "wood",
+      "faces": {}
+    },
+    {
+      "name": "leg_a",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        3,
+        9,
+        3
+      ],
+      "tex": "wood",
+      "faces": {}
+    },
+    {
+      "name": "leg_b",
+      "from": [
+        13,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        9,
+        3
+      ],
+      "tex": "wood",
+      "faces": {}
+    },
+    {
+      "name": "leg_c",
+      "from": [
+        1,
+        0,
+        13
+      ],
+      "to": [
+        3,
+        9,
+        15
+      ],
+      "tex": "wood",
+      "faces": {}
+    },
+    {
+      "name": "leg_d",
+      "from": [
+        13,
+        0,
+        13
+      ],
+      "to": [
+        15,
+        9,
+        15
+      ],
+      "tex": "wood",
+      "faces": {}
+    },
+    {
+      "name": "back_rail",
+      "from": [
+        0,
+        14,
+        15
+      ],
+      "to": [
+        16,
+        15.5,
+        16
+      ],
+      "tex": "brass",
+      "faces": {}
+    },
+    {
+      "name": "rail_left",
+      "from": [
+        15,
+        14,
+        8
+      ],
+      "to": [
+        16,
+        15.5,
+        15
+      ],
+      "tex": "brass",
+      "faces": {}
+    },
+    {
+      "name": "rail_right",
+      "from": [
+        0,
+        14,
+        8
+      ],
+      "to": [
+        1,
+        15.5,
+        15
+      ],
+      "tex": "brass",
+      "faces": {}
+    },
+    {
+      "name": "edge",
+      "from": [
+        0,
+        13.9,
+        0
+      ],
+      "to": [
+        16,
+        14.1,
+        0.6
+      ],
+      "tex": "brass",
+      "faces": {}
+    }
+  ],
+  "export": "src/main/resources/assets/gamblecraft/models/block/dice_table.json"
+}

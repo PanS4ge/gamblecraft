@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "gamblecraft",
+	"version": "${version}",
+	"name": "GambleCraft",
+	"description": "Casino games for Minecraft: card dealers in villages, a suit-only casino with slots, roulette, plinko, crash and more, plus casino security. 18+ (simulated gambling for in-game items, no real money).",
+	"authors": [
+		"pansage"
+	],
+	"license": "All-Rights-Reserved",
+	"icon": "assets/gamblecraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pl.pansage.gamblecraft.GambleCraft"
+		],
+		"client": [
+			"pl.pansage.gamblecraft.client.GambleCraftClient"
+		]
+	},
+	"mixins": [
+		"gamblecraft.mixins.json",
+		{
+			"config": "gamblecraft.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

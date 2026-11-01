@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gamblecraft:block/dice_table"
+    },
+    "facing=east": {
+      "model": "gamblecraft:block/dice_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "gamblecraft:block/dice_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "gamblecraft:block/dice_table",
+      "y": 270
+    }
+  }
+}

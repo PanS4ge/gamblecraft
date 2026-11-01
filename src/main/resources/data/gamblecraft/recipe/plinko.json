@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IGI",
+    "INI",
+    "IRI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "G": "minecraft:glass",
+    "N": "minecraft:gold_nugget",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "gamblecraft:plinko",
+    "count": 1
+  }
+}

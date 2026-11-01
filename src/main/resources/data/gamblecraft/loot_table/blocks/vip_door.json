@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "gamblecraft:vip_door",
+            "state": {
+              "half": "lower"
+            }
+          },
+          "name": "gamblecraft:vip_door"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "gamblecraft:blocks/vip_door"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gamblecraft:block/fortune_wheel"
+    },
+    "facing=east": {
+      "model": "gamblecraft:block/fortune_wheel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "gamblecraft:block/fortune_wheel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "gamblecraft:block/fortune_wheel",
+      "y": 270
+    }
+  }
+}

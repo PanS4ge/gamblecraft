@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IGI",
+    "IRI",
+    "IPI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "G": "minecraft:glass_pane",
+    "R": "minecraft:redstone",
+    "P": "minecraft:paper"
+  },
+  "result": {
+    "id": "gamblecraft_sportsbook:betting_terminal",
+    "count": 1
+  }
+}

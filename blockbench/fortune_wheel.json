@@ -1,0 +1,87 @@
+{
+  "name": "fortune_wheel",
+  "textures": {
+    "wood": "gamblecraft:block/roulette_wood",
+    "felt": "gamblecraft:block/roulette_felt",
+    "brass": "gamblecraft:block/roulette_brass",
+    "fortune_front": "gamblecraft:block/fortune_front",
+    "crash_side": "gamblecraft:block/crash_side",
+    "crash_top": "gamblecraft:block/crash_top",
+    "crash_target": "gamblecraft:block/crash_target",
+    "iron": "minecraft:block/iron_block",
+    "black": "minecraft:block/black_concrete",
+    "gold": "minecraft:block/gold_block",
+    "plinko_side": "gamblecraft:block/plinko_side",
+    "plinko_tray": "gamblecraft:block/plinko_tray",
+    "plinko_board": "gamblecraft:block/plinko_board",
+    "marquee": "gamblecraft:block/slot_marquee",
+    "kiosk_front": "gamblecraft:block/kiosk_front",
+    "kiosk_side": "gamblecraft:block/kiosk_side",
+    "kiosk_sign": "gamblecraft:block/kiosk_sign"
+  },
+  "cubes": [
+    {
+      "name": "plinth",
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        4,
+        14
+      ],
+      "tex": "wood",
+      "faces": {
+        "north": "fortune_front"
+      }
+    },
+    {
+      "name": "trim",
+      "from": [
+        1.5,
+        4,
+        1.5
+      ],
+      "to": [
+        14.5,
+        5,
+        14.5
+      ],
+      "tex": "brass",
+      "faces": {}
+    },
+    {
+      "name": "column",
+      "from": [
+        5.5,
+        5,
+        7
+      ],
+      "to": [
+        10.5,
+        16,
+        11
+      ],
+      "tex": "wood",
+      "faces": {}
+    },
+    {
+      "name": "collar",
+      "from": [
+        5,
+        14.5,
+        6.5
+      ],
+      "to": [
+        11,
+        16,
+        11.5
+      ],
+      "tex": "brass",
+      "faces": {}
+    }
+  ],
+  "export": "src/main/resources/assets/gamblecraft/models/block/fortune_wheel.json"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "gamblecraft:used_scratch_card",
+    "gamblecraft:used_scratch_card",
+    "gamblecraft:used_scratch_card"
+  ],
+  "result": {
+    "id": "minecraft:paper",
+    "count": 1
+  }
+}

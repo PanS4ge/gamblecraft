@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PGP",
+    "GCG",
+    "PIP"
+  ],
+  "key": {
+    "P": "#minecraft:planks",
+    "G": "minecraft:gold_ingot",
+    "C": "minecraft:clock",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "gamblecraft:fortune_wheel",
+    "count": 1
+  }
+}

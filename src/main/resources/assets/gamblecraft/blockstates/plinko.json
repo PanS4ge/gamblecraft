@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "facing=north,half=lower": {
+      "model": "gamblecraft:block/plinko"
+    },
+    "facing=north,half=upper": {
+      "model": "gamblecraft:block/plinko_top"
+    },
+    "facing=east,half=lower": {
+      "model": "gamblecraft:block/plinko",
+      "y": 90
+    },
+    "facing=east,half=upper": {
+      "model": "gamblecraft:block/plinko_top"
+    },
+    "facing=south,half=lower": {
+      "model": "gamblecraft:block/plinko",
+      "y": 180
+    },
+    "facing=south,half=upper": {
+      "model": "gamblecraft:block/plinko_top"
+    },
+    "facing=west,half=lower": {
+      "model": "gamblecraft:block/plinko",
+      "y": 270
+    },
+    "facing=west,half=upper": {
+      "model": "gamblecraft:block/plinko_top"
+    }
+  }
+}

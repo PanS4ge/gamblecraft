@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "LLL",
+    "LBL",
+    "LML"
+  ],
+  "key": {
+    "L": "minecraft:leather",
+    "B": "minecraft:black_dye",
+    "M": "minecraft:poppy"
+  },
+  "result": {
+    "id": "gamblecraft:suit_trousers",
+    "count": 1
+  }
+}

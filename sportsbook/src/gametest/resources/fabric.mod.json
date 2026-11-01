@@ -1,0 +1,18 @@
+{
+	"schemaVersion": 1,
+	"id": "gamblecraft-sportsbook-test",
+	"version": "1.0.0",
+	"name": "GambleCraft Sportsbook Tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"pl.pansage.gamblecraft.sportsbook.test.client.SportsbookClientTest"
+		],
+		"fabric-gametest": [
+			"pl.pansage.gamblecraft.sportsbook.test.SportsbookGameTests"
+		]
+	},
+	"depends": {
+		"gamblecraft_sportsbook": "*"
+	}
+}

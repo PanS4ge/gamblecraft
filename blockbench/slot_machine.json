@@ -1,0 +1,175 @@
+{
+  "name": "slot_machine",
+  "textures": {
+    "cabinet": "gamblecraft:block/slot_cabinet",
+    "side": "gamblecraft:block/slot_side",
+    "panel": "gamblecraft:block/slot_panel",
+    "tray": "gamblecraft:block/slot_tray",
+    "marquee": "gamblecraft:block/slot_marquee",
+    "gold": "minecraft:block/gold_block",
+    "iron": "minecraft:block/iron_block",
+    "black": "minecraft:block/black_concrete",
+    "wood": "gamblecraft:block/roulette_wood",
+    "felt": "gamblecraft:block/roulette_felt",
+    "brass": "gamblecraft:block/roulette_brass"
+  },
+  "cubes": [
+    {
+      "name": "cabinet",
+      "from": [
+        1,
+        0,
+        1.5
+      ],
+      "to": [
+        15,
+        15,
+        15
+      ],
+      "tex": "side",
+      "faces": {
+        "north": "cabinet"
+      }
+    },
+    {
+      "name": "tray",
+      "from": [
+        3,
+        2,
+        1
+      ],
+      "to": [
+        13,
+        6,
+        1.5
+      ],
+      "tex": "tray",
+      "faces": {}
+    },
+    {
+      "name": "ledge",
+      "from": [
+        1,
+        13,
+        0
+      ],
+      "to": [
+        15,
+        15,
+        3
+      ],
+      "tex": "cabinet",
+      "faces": {
+        "up": "panel"
+      }
+    },
+    {
+      "name": "upper",
+      "from": [
+        1,
+        15,
+        2
+      ],
+      "to": [
+        15,
+        27.5,
+        15
+      ],
+      "tex": "side",
+      "faces": {
+        "north": "black"
+      }
+    },
+    {
+      "name": "frame_top",
+      "from": [
+        2,
+        26,
+        1.2
+      ],
+      "to": [
+        14,
+        27.5,
+        2
+      ],
+      "tex": "gold",
+      "faces": {}
+    },
+    {
+      "name": "frame_bottom",
+      "from": [
+        2,
+        16.5,
+        1.2
+      ],
+      "to": [
+        14,
+        18,
+        2
+      ],
+      "tex": "gold",
+      "faces": {}
+    },
+    {
+      "name": "frame_left",
+      "from": [
+        13.3,
+        18,
+        1.2
+      ],
+      "to": [
+        14,
+        26,
+        2
+      ],
+      "tex": "gold",
+      "faces": {}
+    },
+    {
+      "name": "frame_right",
+      "from": [
+        2,
+        18,
+        1.2
+      ],
+      "to": [
+        2.7,
+        26,
+        2
+      ],
+      "tex": "gold",
+      "faces": {}
+    },
+    {
+      "name": "marquee",
+      "from": [
+        1,
+        27.5,
+        1.5
+      ],
+      "to": [
+        15,
+        31.5,
+        15
+      ],
+      "tex": "marquee",
+      "faces": {}
+    },
+    {
+      "name": "lever_base",
+      "from": [
+        0,
+        14,
+        7
+      ],
+      "to": [
+        1,
+        17,
+        9
+      ],
+      "tex": "iron",
+      "faces": {}
+    }
+  ],
+  "export": "src/main/resources/assets/gamblecraft/models/block/slot_machine.json"
+}

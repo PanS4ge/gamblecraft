@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "npc=gambler": {
+      "model": "gamblecraft:block/npc_marker"
+    },
+    "npc=pickpocket": {
+      "model": "gamblecraft:block/npc_marker"
+    },
+    "npc=waitress": {
+      "model": "gamblecraft:block/npc_marker"
+    }
+  }
+}

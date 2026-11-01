@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 3
+  },
+  "gives": {
+    "id": "gamblecraft:scratch_card_silver"
+  },
+  "max_uses": 8,
+  "reputation_discount": 0.05,
+  "xp": 5
+}

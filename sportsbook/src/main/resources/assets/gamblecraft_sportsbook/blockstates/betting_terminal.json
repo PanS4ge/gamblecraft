@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "facing=north,half=lower": {
+      "model": "gamblecraft_sportsbook:block/betting_terminal"
+    },
+    "facing=north,half=upper": {
+      "model": "gamblecraft_sportsbook:block/betting_terminal_top"
+    },
+    "facing=east,half=lower": {
+      "model": "gamblecraft_sportsbook:block/betting_terminal",
+      "y": 90
+    },
+    "facing=east,half=upper": {
+      "model": "gamblecraft_sportsbook:block/betting_terminal_top"
+    },
+    "facing=south,half=lower": {
+      "model": "gamblecraft_sportsbook:block/betting_terminal",
+      "y": 180
+    },
+    "facing=south,half=upper": {
+      "model": "gamblecraft_sportsbook:block/betting_terminal_top"
+    },
+    "facing=west,half=lower": {
+      "model": "gamblecraft_sportsbook:block/betting_terminal",
+      "y": 270
+    },
+    "facing=west,half=upper": {
+      "model": "gamblecraft_sportsbook:block/betting_terminal_top"
+    }
+  }
+}

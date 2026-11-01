@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gamblecraft:block/kolektura"
+    },
+    "facing=east": {
+      "model": "gamblecraft:block/kolektura",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "gamblecraft:block/kolektura",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "gamblecraft:block/kolektura",
+      "y": 270
+    }
+  }
+}

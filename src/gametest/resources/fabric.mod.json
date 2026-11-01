@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "gamblecraft-test",
+	"version": "1.0.0",
+	"name": "GambleCraft Tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"pl.pansage.gamblecraft.test.client.AgeGateClientTest",
+			"pl.pansage.gamblecraft.test.client.DeckClientTest",
+			"pl.pansage.gamblecraft.test.client.DealerTableClientTest",
+			"pl.pansage.gamblecraft.test.client.StallClientTest",
+			"pl.pansage.gamblecraft.test.client.ExchangeClientTest",
+			"pl.pansage.gamblecraft.test.client.ScratchBlockClientTest",
+			"pl.pansage.gamblecraft.test.client.CasinoShopClientTest",
+			"pl.pansage.gamblecraft.test.client.CasinoClientTest",
+			"pl.pansage.gamblecraft.test.client.GamesClientTest",
+			"pl.pansage.gamblecraft.test.client.ArcadeClientTest",
+			"pl.pansage.gamblecraft.test.client.SecurityClientTest"
+		],
+		"fabric-gametest": [
+			"pl.pansage.gamblecraft.test.VillageGameTests",
+			"pl.pansage.gamblecraft.test.CasinoGameTests",
+			"pl.pansage.gamblecraft.test.GamesGameTests",
+			"pl.pansage.gamblecraft.test.ArcadeGameTests",
+			"pl.pansage.gamblecraft.test.SecurityGameTests",
+			"pl.pansage.gamblecraft.test.PeopleGameTests"
+		]
+	},
+	"depends": {
+		"gamblecraft": "*"
+	}
+}

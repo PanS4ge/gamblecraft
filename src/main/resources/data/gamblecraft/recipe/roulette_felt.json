@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "P P"
+  ],
+  "key": {
+    "W": "minecraft:green_wool",
+    "P": "#minecraft:planks"
+  },
+  "result": {
+    "id": "gamblecraft:roulette_felt",
+    "count": 2
+  }
+}

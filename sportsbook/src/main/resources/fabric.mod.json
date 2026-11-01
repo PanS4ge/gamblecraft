@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "gamblecraft_sportsbook",
+	"version": "${version}",
+	"name": "GambleCraft Sportsbook",
+	"description": "A betting terminal for GambleCraft: real football, NBA, NHL, tennis and UFC fixtures from public sports feeds, bet coupons for chips or minerals that settle on the real results. 18+ (in-game items only, no real money).",
+	"authors": [
+		"pansage"
+	],
+	"license": "All-Rights-Reserved",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pl.pansage.gamblecraft.sportsbook.Sportsbook"
+		],
+		"client": [
+			"pl.pansage.gamblecraft.sportsbook.client.SportsbookClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"gamblecraft": ">=0.1.0"
+	}
+}

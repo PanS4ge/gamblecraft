@@ -1,0 +1,126 @@
+{
+  "name": "roulette_felt",
+  "textures": {
+    "cabinet": "gamblecraft:block/slot_cabinet",
+    "side": "gamblecraft:block/slot_side",
+    "panel": "gamblecraft:block/slot_panel",
+    "tray": "gamblecraft:block/slot_tray",
+    "marquee": "gamblecraft:block/slot_marquee",
+    "gold": "minecraft:block/gold_block",
+    "iron": "minecraft:block/iron_block",
+    "black": "minecraft:block/black_concrete",
+    "wood": "gamblecraft:block/roulette_wood",
+    "felt": "gamblecraft:block/roulette_felt",
+    "brass": "gamblecraft:block/roulette_brass"
+  },
+  "cubes": [
+    {
+      "name": "top",
+      "from": [
+        0,
+        12,
+        0
+      ],
+      "to": [
+        16,
+        14,
+        16
+      ],
+      "tex": "wood",
+      "faces": {
+        "up": "felt"
+      }
+    },
+    {
+      "name": "apron",
+      "from": [
+        1,
+        9,
+        1
+      ],
+      "to": [
+        15,
+        12,
+        15
+      ],
+      "tex": "wood",
+      "faces": {}
+    },
+    {
+      "name": "leg_a",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        3,
+        9,
+        3
+      ],
+      "tex": "wood",
+      "faces": {}
+    },
+    {
+      "name": "leg_b",
+      "from": [
+        13,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        9,
+        3
+      ],
+      "tex": "wood",
+      "faces": {}
+    },
+    {
+      "name": "leg_c",
+      "from": [
+        1,
+        0,
+        13
+      ],
+      "to": [
+        3,
+        9,
+        15
+      ],
+      "tex": "wood",
+      "faces": {}
+    },
+    {
+      "name": "leg_d",
+      "from": [
+        13,
+        0,
+        13
+      ],
+      "to": [
+        15,
+        9,
+        15
+      ],
+      "tex": "wood",
+      "faces": {}
+    },
+    {
+      "name": "edge",
+      "from": [
+        0,
+        13.9,
+        0
+      ],
+      "to": [
+        16,
+        14.1,
+        0.6
+      ],
+      "tex": "brass",
+      "faces": {}
+    }
+  ],
+  "export": "src/main/resources/assets/gamblecraft/models/block/roulette_felt.json"
+}

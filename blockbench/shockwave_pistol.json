@@ -1,0 +1,138 @@
+{
+  "name": "shockwave_pistol",
+  "textures": {
+    "cloth": "gamblecraft:item/security_cap_cloth",
+    "band": "gamblecraft:item/security_cap_band",
+    "badge": "gamblecraft:item/security_cap_badge",
+    "brim": "gamblecraft:item/security_cap_brim",
+    "body": "gamblecraft:item/shockwave_pistol_body",
+    "grip": "gamblecraft:item/shockwave_pistol_grip",
+    "coil": "gamblecraft:item/shockwave_pistol_coil",
+    "muzzle": "gamblecraft:item/shockwave_pistol_muzzle"
+  },
+  "cubes": [
+    {
+      "name": "barrel",
+      "from": [
+        3,
+        9,
+        7
+      ],
+      "to": [
+        13.5,
+        11,
+        9
+      ],
+      "tex": "body",
+      "faces": {}
+    },
+    {
+      "name": "slide",
+      "from": [
+        3,
+        11,
+        6.8
+      ],
+      "to": [
+        12,
+        12.2,
+        9.2
+      ],
+      "tex": "body",
+      "faces": {}
+    },
+    {
+      "name": "grip",
+      "from": [
+        3.2,
+        4,
+        7.1
+      ],
+      "to": [
+        5.8,
+        9,
+        8.9
+      ],
+      "tex": "grip",
+      "faces": {}
+    },
+    {
+      "name": "trigger_guard",
+      "from": [
+        5.8,
+        7.6,
+        7.6
+      ],
+      "to": [
+        8,
+        8.2,
+        8.4
+      ],
+      "tex": "body",
+      "faces": {}
+    },
+    {
+      "name": "trigger",
+      "from": [
+        6.4,
+        8.2,
+        7.8
+      ],
+      "to": [
+        6.9,
+        9,
+        8.2
+      ],
+      "tex": "body",
+      "faces": {}
+    },
+    {
+      "name": "coil_a",
+      "from": [
+        8,
+        8.6,
+        6.6
+      ],
+      "to": [
+        9,
+        11.4,
+        9.4
+      ],
+      "tex": "coil",
+      "faces": {}
+    },
+    {
+      "name": "coil_b",
+      "from": [
+        10,
+        8.6,
+        6.6
+      ],
+      "to": [
+        11,
+        11.4,
+        9.4
+      ],
+      "tex": "coil",
+      "faces": {}
+    },
+    {
+      "name": "emitter",
+      "from": [
+        13.5,
+        8.6,
+        6.6
+      ],
+      "to": [
+        15,
+        11.4,
+        9.4
+      ],
+      "tex": "muzzle",
+      "faces": {
+        "east": "coil"
+      }
+    }
+  ],
+  "export": "src/main/resources/assets/gamblecraft/models/item/shockwave_pistol.json"
+}
